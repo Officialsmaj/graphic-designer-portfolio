@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMAJ Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/logo.png" alt="SMAJ Logo" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                <a href="templates.html" class="nav-link">Templates</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+
+                <!-- Optional Filters -->
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="graphic">Graphic</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="packaging">Packaging</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="graphic">
+                        <img src="https://via.placeholder.com/400x300/1a1a1a/ffffff?text=Logo+Design" alt="Logo Design">
+                        <div class="portfolio-overlay">
+                            <h3>Logo Design</h3>
+                            <p>Creative brand identity</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <img src="https://via.placeholder.com/400x300/333333/ffffff?text=Web+Design" alt="Web Design">
+                        <div class="portfolio-overlay">
+                            <h3>Web Design</h3>
+                            <p>Modern responsive website</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="branding">
+                        <img src="https://via.placeholder.com/400x300/666666/ffffff?text=Branding" alt="Branding">
+                        <div class="portfolio-overlay">
+                            <h3>Branding</h3>
+                            <p>Complete brand identity</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="packaging">
+                        <img src="https://via.placeholder.com/400x300/999999/ffffff?text=Packaging" alt="Packaging Design">
+                        <div class="portfolio-overlay">
+                            <h3>Packaging Design</h3>
+                            <p>Product packaging</p>
+                        </div>
+                    </div>
+                    <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 SMAJ Graphic Design Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

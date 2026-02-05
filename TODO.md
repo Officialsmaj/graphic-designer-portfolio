@@ -1,0 +1,4 @@
+- [ ] Fix desktop overflow in gallery-wrapper by changing width from 100vw to 100% and ensuring no horizontal scroll
+- [ ] Center social icons in footer by adding justify-content: center to .social-icons
+- [ ] Enhance responsiveness with additional media queries for hero, services, CTA, footer, and gallery
+- [ ] Fix "Start a Project" button style for consistency and mobile responsiveness
